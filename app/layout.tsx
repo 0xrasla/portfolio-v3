@@ -1,10 +1,5 @@
-import './globals.css'
-import { Crimson_Pro } from "next/font/google";
-
-const crimson = Crimson_Pro({
-  weight: "400",
-  subsets: ["latin"],
-});
+import "./globals.scss";
+import Navebar from "@/components/Navebar";
 
 export const metadata = {
   title: "Rasla - Home",
@@ -19,7 +14,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={crimson.className}>{children}</body>
+      <body className={`font-heading overflow-x-hidden w-screen`}>
+        <Navebar />
+        {children}
+      </body>
     </html>
   );
 }
