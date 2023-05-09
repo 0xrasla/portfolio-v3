@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`font-heading overflow-x-hidden w-screen`}>
-        <Navebar />
+        {/* <Navebar /> */}
         {children}
       </body>
     </html>

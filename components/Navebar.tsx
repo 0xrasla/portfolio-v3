@@ -7,12 +7,12 @@ export default function Navebar() {
       <nav className="w-[90%] flex fixed top-0 items-center justify-between z-20 backdrop-blur-md shadow-md p-2">
         <Link
           href={"/"}
-          className="flex items-center gap-2 font-bold text-xl uppercase text-white font-heading tracking-[4px]"
+          className="flex items-center gap-2 font-bold text-xl uppercase text-palePurple font-heading tracking-[4px]"
         >
           RASSOUNIQZ
         </Link>
 
-        <ul className="flex items-center gap-6 font-bold uppercase">
+        <ul className="flex items-center gap-6 font-bold uppercase text-gunmetal">
           <li>
             <Link href={"#"}>Home</Link>
           </li>
@@ -32,7 +32,7 @@ export default function Navebar() {
             <Link href={"#"}>Contact</Link>
           </li>
           <li>
-            <div className="cursor-pointer bg-transparent hover:bg-black text-black font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+            <div className="cursor-pointer bg-transparent hover:bg-gunmetal text-gunmetal font-semibold hover:text-white py-2 px-4 border border-gunmetal hover:border-transparent rounded">
               Download CV
             </div>
           </li>

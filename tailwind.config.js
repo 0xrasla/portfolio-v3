@@ -9,22 +9,27 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        contrast: "#264653",
-        lightcontrast: "#2A9D8F",
-        highlight: "#E9C46A",
-        lighthighlight: "#F4A261",
-        dark: "#E76F51",
+        backgroundcolor: "#0B132B",
+        lightcolor: "#1C2541",
+        primarycolor: "#3A506B",
+        contrastcolor: "#5BC0BE",
+        brightprimary: "#1a3d52",
       },
       textColor: {
-        contrast: "#264653",
-        lightcontrast: "#2A9D8F",
-        highlight: "#E9C46A",
-        lighthighlight: "#F4A261",
-        dark: "#E76F51",
+        backgroundcolor: "#0B132B",
+        lightcolor: "#1C2541",
+        primarycolor: "#3A506B",
+        contrastcolor: "#5BC0BE",
+      },
+      borderColor: {
+        backgroundcolor: "#0B132B",
+        lightcolor: "#1C2541",
+        primarycolor: "#3A506B",
+        contrastcolor: "#5BC0BE",
       },
       fontFamily: {
         heading: "'Righteous', cursive",
-        content: "'Arvo', sans-serif",
+        content: "'Nova Oval', sans-serif",
       },
     },
   },

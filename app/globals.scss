@@ -2,5 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+$tiffany-blue: #84dcc6ff;
+$gunmetal: #2a2d34ff;
+$pale-purple: #e5d4edff;
+
+$vh: 9.49px;
+
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Oval&display=swap');
+
+.sec {
+    min-height: calc(var(--vh, 1vh)*100);
+    position: sticky;
+    top: 0;
+}
