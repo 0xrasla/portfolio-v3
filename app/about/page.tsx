@@ -28,13 +28,14 @@ export default function About() {
             [Personal]
           </h2>
           <section className="text-lg font-bold">
-            Beyond my work as a developer, I am a dedicated partner and a proud
-            resident Tamil Nadu, India. I take pride in my community and am
-            passionate about making a positive impact on the world around me. In
-            my free time, I enjoy exploring new places and trying new foods, as
-            well as spending time with my loved ones. I am driven by a desire to
-            inspire others to follow their dreams, and I believe that with hard
-            work, dedication, and the right mindset, anything is possible.
+            Beyond my work as a developer, I am a dedicated partner to my love
+            Sorna and a proud resident Tamil Nadu, India. I take pride in my
+            community and am passionate about making a positive impact on the
+            world around me. In my free time, I enjoy exploring new places and
+            trying new foods, as well as spending time with my loved ones. I am
+            driven by a desire to inspire others to follow their dreams, and I
+            believe that with hard work, dedication, and the right mindset,
+            anything is possible.
           </section>
         </article>
       </div>

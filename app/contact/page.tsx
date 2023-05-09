@@ -1,7 +1,7 @@
 export default function Contact() {
   return (
-    <div className="h-screen bg-zinc-800 bg-fixed">
+    <section className="sec flex justify-center items-center bg-zinc-800">
       <h1>Contact Page</h1>
-    </div>
+    </section>
   );
 }
