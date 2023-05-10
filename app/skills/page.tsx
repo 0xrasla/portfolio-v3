@@ -4,16 +4,16 @@ export default function Skills() {
       <div className="content w-[70%]">
         <div>
           <h1 className="font-heading text-4xl text-primarycolor">Skills</h1>
-          <h3 className="text-primarycolor">[Development Arsenal]</h3>
+          <h3 className="text-primarycolor mb-4">[Development Arsenal]</h3>
         </div>
 
-        <div className="grid grid-rows-2 grid-cols-2 gap-8 w-[70%]">
-          <div className="skill p-4">
+        <div className="grid grid-rows-2 grid-cols-2 gap-12 w-[90%]">
+          <div className="skill-card">
             <h1 className="font-heading text-xl text-primarycolor mb-4">
               Frontend Developement
             </h1>
 
-            <ul className="font-content font-bold text-sm">
+            <ul className="font-content font-bold text-md text-primarycolor">
               <li>React JS</li>
               <li>Next JS</li>
               <li>Tailwind CSS</li>
@@ -24,13 +24,14 @@ export default function Skills() {
             </ul>
           </div>
 
-          <div className="skill p-4">
+          <div className="skill-card">
             <h1 className="font-heading text-xl text-primarycolor mb-4">
               Backend Developement
             </h1>
 
-            <ul className="font-content font-bold text-sm">
+            <ul className="font-content font-bold text-md text-primarycolor">
               <li>Node JS</li>
+              <li>Nest JS</li>
               <li>Express JS</li>
               <li>MongoDB</li>
               <li>Mongoose</li>
@@ -40,12 +41,12 @@ export default function Skills() {
             </ul>
           </div>
 
-          <div className="skill p-4">
+          <div className="skill-card">
             <h1 className="font-heading text-xl text-primarycolor mb-4">
               Game Developement
             </h1>
 
-            <ul className="font-content font-bold text-sm">
+            <ul className="font-content font-bold text-md text-primarycolor">
               <li>Unity</li>
               <li>C#</li>
               <li>Python</li>
@@ -54,12 +55,12 @@ export default function Skills() {
             </ul>
           </div>
 
-          <div className="skill p-4">
+          <div className="skill-card">
             <h1 className="font-heading text-xl text-primarycolor mb-4">
               Media / Tools
             </h1>
 
-            <ul className="font-content font-bold text-sm">
+            <ul className="font-content font-bold text-md text-primarycolor">
               <li>Adobe Photoshop</li>
               <li>Adobe Illustrator</li>
               <li>Adobe XD</li>

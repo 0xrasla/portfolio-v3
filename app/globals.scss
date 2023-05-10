@@ -1,3 +1,12 @@
+
+.skill-card {
+    @apply p-4 border-2 rounded-md border-primarycolor hover:scale-105 transition-all;
+}
+
+.form-input {
+    @apply w-full rounded-md border-2 border-primarycolor p-2 font-content text-primarycolor font-bold;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
