@@ -9,11 +9,11 @@ export default function About() {
 
         <article className="text-primarycolor flex flex-col gap-2 font-content">
           <section className="text-2xl font-bold">
-            I'm ,a self-taught coder and passionate Developer from Tamilnadu,
-            India. From an early age, I was drawn to the world of technology and
-            the limitless possibilities it presented. In college, I took it upon
-            myself to learn how to code, and I quickly discovered my love for
-            building things using Programming.
+            I&apos;m ,a self-taught coder and passionate Developer from
+            Tamilnadu, India. From an early age, I was drawn to the world of
+            technology and the limitless possibilities it presented. In college,
+            I took it upon myself to learn how to code, and I quickly discovered
+            my love for building things using Programming.
           </section>
           <h2 className="font-heading text-2xl text-primarycolor">
             [Tecnical]
